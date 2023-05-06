@@ -14,7 +14,26 @@
         video {
                 width: 400px;
         }
+        table,
+        td,
+        th {
+                border: 1px solid gray;
+                border-collapse: collapse;
+                padding: 5px;
+        }
+        tfoot { 
+                text-align: left;
+        }
+        .product {
+            background-color: gold;
+            width: 200px;
+        }
+        .highlight {
+            background-color: yellow;
+        }
     </style>
+
+
     <h2>HTML</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat perferendis iure eveniet esse voluptatum, ratione explicabo ipsam commodi harum temporibus saepe deserunt architecto optio facere aliquid alias, repellat velit quis voluptatibus cumque placeat quaerat, excepturi blanditiis! Velit molestias doloribus voluptatum atque blanditiis error id repudiandae commodi dolorum aliquam officiis dicta enim, repellat illo et deleniti. Nisi, repudiandae. Animi recusandae ipsa laboriosam velit excepturi laudantium, sint nostrum dicta aspernatur harum neque expedita deleniti. Optio aspernatur, aliquid obcaecati adipisci necessitatibus cupiditate quos quas amet debitis id. Magni neque quo corrupti quidem doloremque explicabo quia veritatis eveniet ipsa, iure expedita voluptate delectus corporis assumenda, nulla, voluptatem obcaecati! Voluptatibus vel rem, magnam, vitae obcaecati minus expedita minima velit quo consequuntur ipsum nihil iusto. Repudiandae, cupiditate! Tempora illum blanditiis pariatur voluptate nostrum. Sunt tenetur vero distinctio, autem praesentium error aperiam similique officiis quisquam consequuntur quo soluta magni ullam sed perspiciatis at, quibusdam natus magnam, fuga voluptates temporibus repudiandae dolor! Itaque recusandae, quod consectetur fuga delectus iste optio quis aliquid veniam. Sequi voluptates quaerat facilis corrupti iure nostrum sapiente commodi ex quo nemo delectus velit quisquam omnis unde dolorum temporibus aspernatur, repellat voluptatem, saepe eveniet officia maiores libero ab. Corrupti vero recusandae dolorem odit pariatur sequi.</p>
     <h2 id="section-css">CSS</h2>
@@ -43,5 +62,43 @@
             <dt>CSS</dt>
             <dd>Cascading Stylesheet</dd>
         </dl>
+
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Expenses</th>
+                </tr>
+                </tr>
+                    <th>Category</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Marketing</td>
+                    <td>$100</td>                
+                </tr>
+                <tr>
+                    <td>Accounting</td>
+                    <td>$200</td>
+                </tr>
+            </tbody>    
+            <tfoot>
+                <tr>
+                    <th>Total</th>
+                    <th>$300</th>
+                </tr>
+            </tfoot>
+        </table>
+        <div class="product">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, consequatur.</p>
+            <a href="#">Link</a>
+        </div>
+        <div class="product">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, consequatur.</p>
+            <a href="#">Link</a>
+        </div>
+        <p><span class="highlight">Lorem</span> ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, cum!</p>
+
         </body>
 </html> 
